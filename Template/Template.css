@@ -1,0 +1,41 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(155, 181, 221);
+  overflow: hidden;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-weight: normal;
+  font-size: 2.3vmin;
+  color: rgb(170, 37, 88);
+  user-select: none;
+}
+
+scene {
+  width: 1700px;
+  height: 720px;
+  display: inline-block;
+  /* position: absolute; */
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+dialog[type=splash] {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(189, 137, 137);
+  color: rgb(84, 212, 174);
+  border: solid;
+  cursor: cell;
+  text-align: right;
+}
+
+dialog[type=splash]>img#FudgeStoryLogo {
+  width: 100%;
+}
